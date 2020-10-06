@@ -1,0 +1,33 @@
+
+.row{
+    margin-top: 8%;
+}
+h1{
+    text-align: center;
+}
+.page-header{
+    margin-top: 10%;
+}
+.card{
+    width: 18rem;
+    /* height:23rem; */
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.card-img-top{
+    /* width: 100%; */
+    /* height: 22vw; */
+    object-fit: cover; 
+}
+.card:hover {
+    background-color: #923cb5;
+    background-image: linear-gradient(147deg, #923cb5 50%, #000000 80%);
+    width: 19rem;
+    color: white;
+    box-shadow: 5px 10px 5px 6px darkgray;
+}
+/* inherit card color will color link according to card color */
+a.card-link{
+    color: inherit;
+}
