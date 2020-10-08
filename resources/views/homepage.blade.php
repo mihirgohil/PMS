@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="HandheldFriendly" content="true">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -47,12 +47,12 @@
             <!-- card -->
             <div class="col-md-6 col-lg-4">
                 <!-- link for page -->
-                <a href="#" class="card-link">
+                <a href="studentboom" class="card-link">
                 <div class="card">
                     <!-- static images are stored under public/images -->
-                    <img src="/images/collage_log.png" class="card-img-top" alt="Can't load image">
+                    <img src="/images/college_logo.png" class="card-img-top" alt="Can't load image">
                     <div class="card-body" style="text-align: center">
-                        <h3 class="card-title"><b>Collage</b></h3>
+                        <h3 class="card-title"><b>College</b></h3>
                     </div>
                 </div>
                 </a>

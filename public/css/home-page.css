@@ -1,4 +1,6 @@
-
+body{
+    overflow: hidden;
+}
 .row{
     margin-top: 8%;
 }
@@ -23,7 +25,8 @@ h1{
 .card:hover {
     background-color: #923cb5;
     background-image: linear-gradient(147deg, #923cb5 50%, #000000 80%);
-    width: 19rem;
+    /* width: 19rem; */
+    transform: scale(1.1);
     color: white;
     box-shadow: 5px 10px 5px 6px darkgray;
 }
@@ -31,3 +34,4 @@ h1{
 a.card-link{
     color: inherit;
 }
+
